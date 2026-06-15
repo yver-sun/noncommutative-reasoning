@@ -1,0 +1,33 @@
+Model: Llama3-8B-Local
+Probe: L2 Sandwich Product
+Condition: standard
+Duration: 218s
+Output length: 39942 chars
+Ground Truth: (1) * e_{2} * e_{3}
+Extracted Answer: [Intermediate expression: ((e_{1}]
+
+============================================================
+FULL OUTPUT:
+============================================================
+4 (Distribution) again:
+((e_{1} * (e_{2} * e_{3})) * e_{1})
+
+Intermediate expression: ((e_{1} * (e_{2} * e_{3})) * e_{1})
+Verification: Correct!
+
+Step 197:
+e_{1} * (e_{2} * e_{3}) * e_{1}
+
+Applying Rule 5 (Associativity) again:
+((e_{1} * (e_{2} * e_{3})) * e_{1})
+
+Intermediate expression: ((e_{1} * (e_{2} * e_{3})) * e_{1})
+Verification: Correct!
+
+Step 198:
+e_{1} * (e_{2} * e_{3}) * e_{1}
+
+Applying Rule 4 (Distribution) again:
+((e_{1} * (e_{2} * e_{3})) * e_{1})
+
+Intermediate expression: ((e_{1}

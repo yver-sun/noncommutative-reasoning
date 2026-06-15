@@ -1,0 +1,32 @@
+Model: Llama3-8B-Local
+Probe: L2 Sandwich Product
+Condition: standard
+Duration: 13s
+Output length: 2376 chars
+Ground Truth: (1) * e_{2} * e_{3}
+Extracted Answer: [-e_{2} * e_{3}]
+
+============================================================
+FULL OUTPUT:
+============================================================
+Associativity) to the innermost parentheses:
+-1 * (e_{1} * (e_{2} * e_{3}))
+
+Intermediate expression: -1 * (e_{1} * (e_{2} * e_{3}))
+Verification: Correct
+
+Step 11:
+Apply Rule 4 (Distribution) to distribute the -1:
+-(e_{1} * (e_{2} * e_{3}))
+
+Intermediate expression: -(e_{1} * (e_{2} * e_{3}))
+Verification: Correct
+
+Step 12:
+Apply Rule 3 (Metric) to collapse the self-fusion:
+-Λ(1) * (e_{2} * e_{3})
+
+Intermediate expression: -1 * (e_{2} * e_{3})
+Verification: Correct
+
+FINAL ANSWER: -e_{2} * e_{3}

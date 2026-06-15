@@ -1,0 +1,636 @@
+instance_id,model,probe,probe_level,strategy,condition,metric_name,dim,rep,correct,error_type,final_answer,is_empty,evaluation_method,duration_s,output_len
+v6_GLM-4-9B-0_L0_cot_abstract_r2,GLM-4-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,,uncertain,\omega_{1} * \omega_{2} + \omega_{2} * \omega_{1},False,uncertain,4.0,1004
+v6_GLM-4-9B-0_L0_cot_standard_r0,GLM-4-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,\boxed{0},False,semantic_equivalent,4.0,807
+v6_GLM-4-9B-0_L0_cot_standard_r1,GLM-4-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,e_{1} * e_{2} + e_{2} * e_{1} = 0,False,contains_gt,4.1,837
+v6_GLM-4-9B-0_L0_cot_standard_r2,GLM-4-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,\boxed{0},False,semantic_equivalent,4.3,807
+v6_GLM-4-9B-0_L0_cot_abstract_r0,GLM-4-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,,uncertain,\omega_{1} * \omega_{2} + \omega_{2} * \omega_{1},False,uncertain,4.4,1004
+v6_DeepSeek-V_L0_cot_standard_r0,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,** 0,False,semantic_equivalent,5.6,512
+v6_DeepSeek-V_L0_cot_standard_r2,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,** 0,False,semantic_equivalent,5.6,476
+v6_DeepSeek-V_L0_cot_standard_r1,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,** 0,False,semantic_equivalent,6.0,481
+v6_GLM-4-9B-0_L0_cot_abstract_r1,GLM-4-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,,uncertain,FINAL ANSWER: \omega_{1} * \omega_{2} - \omega_{2} * \omega_{1},False,uncertain,6.7,1656
+v6_DeepSeek-V_L0_cot_abstract_r1,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,** 0,False,semantic_equivalent,7.0,472
+v6_GLM-4-9B-0_L1_cot_standard_r1,GLM-4-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,- (e_1 * e_2 * e_3),False,contains_gt,5.1,1255
+v6_GLM-4-9B-0_L0_cot_random_r2,GLM-4-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0,False,semantic_equivalent,6.1,1385
+v6_DeepSeek-V_L0_cot_abstract_r0,DeepSeek-V3,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,10.3,888
+v6_GLM-4-9B-0_L0_cot_random_r1,GLM-4-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,6.2,1397
+v6_DeepSeek-V_L0_cot_standard_r1,DeepSeek-V3,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,0,False,semantic_equivalent,10.3,742
+v6_Qwen3-8B-L_L0_cot_standard_r1,Qwen3-8B-Local,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,**  0,False,semantic_equivalent,10.5,550
+v6_GLM-4-9B-0_L0_cot_random_r0,GLM-4-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,6.7,1242
+v6_DeepSeek-V_L0_cot_standard_r0,DeepSeek-V3,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,0,False,semantic_equivalent,11.1,814
+v6_DeepSeek-V_L0_cot_abstract_r2,DeepSeek-V3,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0,False,semantic_equivalent,11.3,928
+v6_DeepSeek-V_L0_cot_abstract_r1,DeepSeek-V3,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0,False,semantic_equivalent,11.5,1030
+v6_MiniMax-M2_L0_cot_standard_r2,MiniMax-M2.5,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,** 0,False,semantic_equivalent,11.6,813
+v6_DeepSeek-V_L0_cot_standard_r2,DeepSeek-V3,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,0,False,semantic_equivalent,11.9,871
+v6_GLM-4-9B-0_L1_cot_standard_r0,GLM-4-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,FINAL ANSWER:  e_1 * e_2 * e_3,False,contains_gt,7.6,1723
+v6_DeepSeek-V_L0_cot_standard_r1,DeepSeek-V3.2,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,12.3,730
+v6_DeepSeek-V_L0_cot_random_r0,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,6.8,552
+v6_GLM-Z1-9B-_L0_cot_standard_r1,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,"**  
+FINAL ANSWER:  0",False,contains_gt,12.7,464
+v6_DeepSeek-V_L0_cot_standard_r2,DeepSeek-V3.2,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,13.2,780
+v6_DeepSeek-V_L0_cot_abstract_r2,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0,False,semantic_equivalent,13.3,512
+v6_GLM-Z1-9B-_L0_cot_standard_r0,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,13.8,507
+v6_GLM-Z1-9B-_L0_cot_standard_r2,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,** 0,False,semantic_equivalent,13.8,571
+v6_MiniMax-M2_L0_cot_standard_r1,MiniMax-M2.5,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,14.2,934
+v6_Qwen3-14B_L0_cot_standard_r1,Qwen3-14B,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,\boxed{0},False,semantic_equivalent,14.4,1020
+v6_Qwen3-14B_L0_cot_standard_r0,Qwen3-14B,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,\boxed{0},False,semantic_equivalent,14.4,1020
+v6_Qwen3-14B_L0_cot_standard_r2,Qwen3-14B,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,\boxed{0},False,semantic_equivalent,14.4,1020
+v6_DeepSeek-V_L0_cot_abstract_r0,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,14.5,584
+v6_DeepSeek-V_L0_cot_standard_r2,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,0,False,semantic_equivalent,15.0,587
+v6_GLM-4-9B-0_L1_cot_abstract_r0,GLM-4-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,FINAL ANSWER:  ω_{1} * ω_{2} * ω_{3},False,contains_gt,5.6,1218
+v6_DeepSeek-V_L1_cot_standard_r0,DeepSeek-V4-Flash,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,** e₁ * e₂ * e₃,False,semantic_equivalent,8.1,525
+v6_DeepSeek-V_L0_cot_abstract_r0,DeepSeek-V3.2,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,"**  
+
+0",False,semantic_equivalent,15.2,930
+v6_DeepSeek-V_L0_cot_standard_r0,DeepSeek-V3.2,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,0**,False,semantic_equivalent,15.2,858
+v6_GLM-4-9B-0_L1_cot_standard_r2,GLM-4-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,"**
+ e_1 * e_2 * e_3",False,semantic_equivalent,8.9,2008
+v6_Qwen3-32B_L0_cot_abstract_r0,Qwen3-32B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,\boxed{0},False,semantic_equivalent,15.7,1167
+v6_Qwen3-14B_L0_cot_abstract_r2,Qwen3-14B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0,False,semantic_equivalent,15.8,1121
+v6_GLM-4-9B-0_L1_cot_abstract_r2,GLM-4-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,FINAL ANSWER:  ω_{1} * ω_{2} * ω_{3},False,contains_gt,5.6,1218
+v6_Qwen3-14B_L0_cot_abstract_r1,Qwen3-14B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0,False,semantic_equivalent,16.0,1150
+v6_Qwen3-14B_L0_cot_abstract_r0,Qwen3-14B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,16.0,1150
+v6_GLM-4-9B-0_L1_cot_abstract_r1,GLM-4-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,"**  
+ω_{1} * ω_{2} * ω_{3}",False,semantic_equivalent,5.8,1168
+v6_MiniMax-M2_L0_cot_standard_r0,MiniMax-M2.5,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,0**,False,semantic_equivalent,16.3,811
+v6_DeepSeek-V_L0_cot_abstract_r1,DeepSeek-V3.2,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,17.9,1130
+v6_DeepSeek-V_L0_cot_standard_r1,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,18.0,831
+v6_DeepSeek-V_L0_cot_random_r2,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,12.8,589
+v6_Qwen3-32B_L0_cot_standard_r0,Qwen3-32B,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,\boxed{0},False,semantic_equivalent,19.5,598
+v6_GLM-4-9B-0_L1_cot_random_r0,GLM-4-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,"The final expression in standard order is:
+
+\boxed{\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3}}",False,contains_gt,9.1,1909
+v6_DeepSeek-V_L0_cot_random_r1,DeepSeek-V3,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,10.0,693
+v6_DeepSeek-V_L0_cot_random_r2,DeepSeek-V3,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0,False,semantic_equivalent,9.8,827
+v6_Qwen3-8B-L_L0_cot_random_r0,Qwen3-8B-Local,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,21.2,362
+v6_GLM-4-9B-0_L1_cot_random_r2,GLM-4-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3},False,semantic_equivalent,6.5,1482
+v6_DeepSeek-V_L0_cot_abstract_r0,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,22.5,675
+v6_DeepSeek-V_L0_cot_abstract_r2,DeepSeek-V3.2,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,22.6,1139
+v6_MiniMax-M2_L0_cot_abstract_r1,MiniMax-M2.5,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,** 0,False,semantic_equivalent,22.9,1060
+v6_DeepSeek-V_L0_cot_standard_r0,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,0**,False,semantic_equivalent,23.3,855
+v6_DeepSeek-V_L0_cot_random_r0,DeepSeek-V3,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,13.5,1054
+v6_DeepSeek-V_L1_cot_standard_r2,DeepSeek-V4-Flash,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_1 e_2 e_3,False,semantic_equivalent,10.7,945
+v6_GLM-4-9B-0_L1_cot_random_r1,GLM-4-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,\boxed{\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3}},False,semantic_equivalent,14.6,3171
+v6_DeepSeek-V_L1_cot_standard_r0,DeepSeek-V3,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_{1} * e_{2} * e_{3},False,semantic_equivalent,15.4,1086
+v6_DeepSeek-V_L0_cot_abstract_r1,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0,False,semantic_equivalent,27.4,724
+v6_DeepSeek-V_L0_cot_random_r1,DeepSeek-V4-Flash,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,22.3,507
+v6_DeepSeek-V_L0_cot_abstract_r2,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,28.2,1077
+v6_DeepSeek-V_L1_cot_standard_r1,DeepSeek-V3,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_{1} * e_{2} * e_{3},False,semantic_equivalent,16.8,1155
+v6_Qwen3-32B_L0_cot_standard_r1,Qwen3-32B,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,\boxed{0},False,semantic_equivalent,28.3,908
+v6_Qwen3-14B_L0_cot_random_r2,Qwen3-14B,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0,False,semantic_equivalent,15.0,1111
+v6_Qwen3-14B_L0_cot_random_r0,Qwen3-14B,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,15.0,1111
+v6_Qwen3-14B_L0_cot_random_r1,Qwen3-14B,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,15.0,1111
+v6_DeepSeek-V_L1_cot_abstract_r1,DeepSeek-V4-Flash,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,** ω₁ * ω₂ * ω₃,False,semantic_equivalent,14.3,864
+v6_DeepSeek-V_L0_cot_random_r1,DeepSeek-V3.2,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,16.8,1066
+v6_MiniMax-M2_L0_cot_abstract_r2,MiniMax-M2.5,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,30.4,1067
+v6_Qwen3-8B-L_L0_cot_standard_r0,Qwen3-8B-Local,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,**  0,False,semantic_equivalent,30.4,581
+v6_DeepSeek-V_L1_cot_standard_r2,DeepSeek-V3,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_{1} * e_{2} * e_{3},False,semantic_equivalent,19.7,1554
+v6_GLM-4-9B-0_L2_cot_standard_r2,GLM-4-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,2,,uncertain,\boxed{1},False,uncertain,16.1,2937
+v6_DeepSeek-V_L0_cot_random_r0,DeepSeek-V3.2,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,19.9,1013
+v6_DeepSeek-V_L1_cot_abstract_r1,DeepSeek-V3,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,11.6,866
+v6_DeepSeek-V_L1_cot_abstract_r2,DeepSeek-V4-Flash,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,** ω₁ * ω₂ * ω₃,False,semantic_equivalent,14.1,692
+v6_Qwen3-32B_L0_cot_abstract_r2,Qwen3-32B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,\boxed{0},False,semantic_equivalent,33.2,920
+v6_DeepSeek-V_L1_cot_abstract_r2,DeepSeek-V3,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,10.2,651
+v6_DeepSeek-V_L1_cot_abstract_r0,DeepSeek-V3,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,13.7,890
+v6_GLM-4-9B-0_L2_cot_abstract_r0,GLM-4-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,0,,uncertain,FINAL ANSWER: - (ω_{2} * ω_{3}),False,uncertain,14.3,3346
+v6_GLM-4-9B-0_L2_cot_abstract_r1,GLM-4-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,1,,uncertain,FINAL ANSWER: -1,False,uncertain,12.7,2936
+v6_GLM-Z1-9B-_L0_cot_random_r1,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,21.0,759
+v6_Qwen3-32B_L0_cot_random_r0,Qwen3-32B,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,**  0,False,semantic_equivalent,19.8,837
+v6_MiniMax-M2_L0_cot_random_r0,MiniMax-M2.5,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,24.2,606
+v6_Qwen3-32B_L0_cot_standard_r2,Qwen3-32B,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,\text{FINAL ANSWER: } 0,False,contains_gt,36.2,755
+v6_Qwen3-14B_L1_cot_standard_r2,Qwen3-14B,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,** e₁ * e₂ * e₃,False,semantic_equivalent,20.2,1475
+v6_Qwen3-14B_L1_cot_standard_r1,Qwen3-14B,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,** e₁ * e₂ * e₃,False,semantic_equivalent,20.2,1475
+v6_GLM-Z1-9B-_L0_cot_abstract_r1,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,"**  
+FINAL ANSWER: 0",False,contains_gt,36.4,382
+v6_Qwen3-14B_L1_cot_standard_r0,Qwen3-14B,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,** e₁ * e₂ * e₃,False,semantic_equivalent,20.9,1500
+v6_DeepSeek-V_L0_cot_random_r2,DeepSeek-V3.2,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,**,False,semantic_equivalent,21.7,1373
+v6_DeepSeek-V_L1_cot_abstract_r0,DeepSeek-V4-Flash,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,22.7,897
+v6_Qwen3-8B_L0_cot_standard_r1,Qwen3-8B,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,38.7,1472
+v6_MiniMax-M2_L0_cot_abstract_r0,MiniMax-M2.5,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0**,False,semantic_equivalent,38.7,901
+v6_DeepSeek-V_L1_cot_random_r1,DeepSeek-V3,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,11.2,789
+v6_GLM-Z1-9B-_L0_cot_random_r2,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,"**  
+FINAL ANSWER: 0",False,contains_gt,25.8,701
+v6_GLM-4-9B-0_L2_cot_abstract_r2,GLM-4-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,2,,uncertain,FINAL ANSWER: - (ω_{2} * ω_{3}),False,uncertain,13.1,3326
+v6_MiniMax-M2_L0_cot_random_r1,MiniMax-M2.5,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,25.8,1443
+v6_Qwen3-32B_L0_cot_abstract_r1,Qwen3-32B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,**  0,False,semantic_equivalent,40.0,1294
+v6_Qwen3-8B_L0_cot_standard_r0,Qwen3-8B,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,40.3,1472
+v6_Qwen3-8B-L_L0_cot_random_r1,Qwen3-8B-Local,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,41.0,362
+v6_DeepSeek-V_L1_cot_random_r0,DeepSeek-V3,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,FINAL ANSWER: - (BLK_{1} * DIA_{2} * TRI_{3}),False,contains_gt,14.8,1101
+v6_DeepSeek-V_L1_cot_standard_r0,DeepSeek-V3.2,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,"**  
+
+e_{1} * e_{2} * e_{3}",False,semantic_equivalent,26.5,1386
+v6_Qwen3-8B_L0_cot_standard_r2,Qwen3-8B,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,"**  
+
+\boxed{0}",False,semantic_equivalent,42.2,1480
+v6_Qwen3-32B_L0_cot_random_r2,Qwen3-32B,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,** 0,False,semantic_equivalent,14.6,452
+v6_MiniMax-M2_L0_cot_random_r2,MiniMax-M2.5,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0,False,semantic_equivalent,27.2,640
+v6_Qwen3-32B_L0_cot_random_r1,Qwen3-32B,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,\boxed{0},False,semantic_equivalent,24.9,1058
+v6_GLM-Z1-9B-_L0_cot_abstract_r0,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,44.6,499
+v6_DeepSeek-V_L1_cot_standard_r1,DeepSeek-V3.2,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,**  e_1 * e_2 * e_3,False,semantic_equivalent,27.4,1212
+v6_MiniMax-M2_L1_cot_standard_r0,MiniMax-M2.5,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,** e_{1} * e_{2} * e_{3},False,semantic_equivalent,22.8,792
+v6_DeepSeek-V_L1_cot_random_r2,DeepSeek-V4-Flash,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,17.3,980
+v6_DeepSeek-V_L0_cot_random_r1,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,29.1,942
+v6_DeepSeek-V_L1_cot_random_r1,DeepSeek-V4-Flash,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,** BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,19.7,842
+v6_DeepSeek-V_L1_cot_standard_r2,DeepSeek-V3.2,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,"**  
+
+\boxed{e_1 * e_2 * e_3}",False,semantic_equivalent,25.0,1365
+v6_DeepSeek-V_L1_cot_random_r2,DeepSeek-V3,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,- (BLK_{1} * DIA_{2} * TRI_{3}),False,contains_gt,17.5,1239
+v6_DeepSeek-V_L1_cot_random_r0,DeepSeek-V4-Flash,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,25.8,988
+v6_GLM-Z1-9B-_L0_cot_random_r0,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,39.3,579
+v6_GLM-Z1-9B-_L0_cot_abstract_r2,GLM-Z1-9B-0414,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0,False,semantic_equivalent,52.8,537
+v6_DeepSeek-R_L0_cot_standard_r1,DeepSeek-R1,Anti-Commutativity,0,cot,standard,minkowski_4,4,1,True,none,"**  
+The expression simplifies to the scalar  0 .",False,contains_gt,54.1,1257
+v6_GLM-4-9B-0_L3_cot_standard_r0,GLM-4-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,0,,uncertain,\boxed{A * B + B * A = -e_1 * e_3 - e_4 * e_1},False,uncertain,15.3,2974
+v6_Qwen3-8B_L0_cot_abstract_r0,Qwen3-8B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,**  0,False,semantic_equivalent,55.1,663
+v6_DeepSeek-V_L2_cot_standard_r1,DeepSeek-V4-Flash,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e_{2} * e_{3},False,semantic_equivalent,18.7,1286
+v6_DeepSeek-V_L1_cot_standard_r1,DeepSeek-V4-Pro,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,28.7,1128
+v6_Qwen3-14B_L1_cot_abstract_r1,Qwen3-14B,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,**FINAL ANSWER: ω₁ * ω₂ * ω₃**,False,contains_gt,26.8,1673
+v6_Qwen3-14B_L1_cot_abstract_r2,Qwen3-14B,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,**FINAL ANSWER: ω₁ * ω₂ * ω₃**,False,contains_gt,26.8,1673
+v6_DeepSeek-V_L1_cot_abstract_r1,DeepSeek-V3.2,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,"**  
+
+\omega_1 * \omega_2 * \omega_3",False,semantic_equivalent,25.3,1529
+v6_DeepSeek-V_L2_cot_abstract_r0,DeepSeek-V3,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,ω₂ * ω₃,False,semantic_equivalent,18.2,1436
+v6_Qwen3-8B_L0_cot_abstract_r1,Qwen3-8B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,59.0,886
+v6_MiniMax-M2_L1_cot_standard_r1,MiniMax-M2.5,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,** e_{1} * e_{2} * e_{3},False,semantic_equivalent,29.3,1390
+v6_GLM-4-9B-0_L2_cot_random_r1,GLM-4-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,1,,uncertain,\boxed{-1},False,uncertain,26.0,4683
+v6_GLM-4-9B-0_L2_cot_random_r2,GLM-4-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,2,,uncertain,\boxed{-1},False,uncertain,26.0,4683
+v6_DeepSeek-V_L1_cot_abstract_r0,DeepSeek-V3.2,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,"**  
+
+\omega_1 * \omega_2 * \omega_3",False,semantic_equivalent,30.2,1850
+v6_DeepSeek-V_L2_cot_abstract_r1,DeepSeek-V3,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,ω₂ * ω₃,False,semantic_equivalent,18.9,1186
+v6_DeepSeek-V_L2_cot_standard_r0,DeepSeek-V4-Flash,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,**  e_{2} * e_{3},False,semantic_equivalent,28.0,1087
+v6_Qwen3-8B-L_L0_cot_abstract_r1,Qwen3-8B-Local,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,60.9,556
+v6_DeepSeek-V_L2_cot_standard_r0,DeepSeek-V3,Sandwich Product,2,cot,standard,minkowski_4,4,0,,uncertain,The expression simplifies to  e_{2} * e_{3} .,False,uncertain,28.6,2114
+v6_DeepSeek-V_L1_cot_abstract_r2,DeepSeek-V3.2,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,"**  
+
+\omega_1 * \omega_2 * \omega_3",False,semantic_equivalent,24.4,1571
+v6_Qwen3-14B_L1_cot_random_r0,Qwen3-14B,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,**BLK₁ * DIA₂ * TRI₃**,False,semantic_equivalent,25.8,1785
+v6_Qwen3-14B_L1_cot_random_r1,Qwen3-14B,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,**BLK₁ * DIA₂ * TRI₃**,False,semantic_equivalent,25.8,1785
+v6_DeepSeek-V_L2_cot_standard_r1,DeepSeek-V3,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e_{2} * e_{3},False,semantic_equivalent,28.5,2037
+v6_GLM-4-9B-0_L2_cot_standard_r0,GLM-4-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,\boxed{-e_{1} * e_{2} * e_{3}},False,contains_gt,48.1,8445
+v6_GLM-4-9B-0_L2_cot_standard_r1,GLM-4-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,\boxed{-e_{1} * e_{2} * e_{3}},False,contains_gt,49.0,8445
+v6_DeepSeek-V_L2_cot_standard_r2,DeepSeek-V3,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_{2} * e_{3},False,semantic_equivalent,31.4,2160
+v6_DeepSeek-V_L1_cot_random_r1,DeepSeek-V3.2,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,"**  
+
+BLK_1 * DIA_2 * TRI_3",False,semantic_equivalent,21.6,1174
+v6_DeepSeek-V_L2_cot_standard_r2,DeepSeek-V4-Flash,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_{2} * e_{3},False,semantic_equivalent,21.5,986
+v6_DeepSeek-V_L0_cot_random_r2,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0,False,semantic_equivalent,46.0,762
+v6_Qwen3-14B_L1_cot_random_r2,Qwen3-14B,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,**- (BLK₁ * DIA₂ * TRI₃)**,False,contains_gt,33.4,2320
+v6_GLM-4-9B-0_L3_cot_standard_r1,GLM-4-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,1,,uncertain,The anti-commutator  A * B + B * A  is **zero**.,False,uncertain,15.5,2894
+v6_GLM-4-9B-0_L2_cot_random_r0,GLM-4-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,0,,uncertain,\[ -\text{BLK}_{1},False,uncertain,39.1,11730
+v6_DeepSeek-V_L1_cot_random_r0,DeepSeek-V3.2,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,"**  
+
+BLK_1 * DIA_2 * TRI_3",False,semantic_equivalent,30.5,1741
+v6_GLM-4-9B-0_L3_cot_standard_r2,GLM-4-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,2,,uncertain,\boxed{0},False,uncertain,12.6,2751
+v6_DeepSeek-V_L2_cot_abstract_r1,DeepSeek-V4-Flash,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,** \omega_{2} * \omega_{3},False,semantic_equivalent,23.7,1347
+v6_DeepSeek-R_L0_cot_standard_r0,DeepSeek-R1,Anti-Commutativity,0,cot,standard,minkowski_4,4,0,True,none,0**,False,semantic_equivalent,73.5,1110
+v6_GLM-Z1-9B-_L1_cot_standard_r1,GLM-Z1-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,38.0,650
+v6_DeepSeek-V_L1_cot_random_r2,DeepSeek-V3.2,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,"**  
+
+\boxed{BLK_1 * DIA_2 * TRI_3}",False,semantic_equivalent,27.2,1470
+v6_GLM-Z1-9B-_L1_cot_standard_r0,GLM-Z1-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,40.5,982
+v6_DeepSeek-V_L1_cot_standard_r0,DeepSeek-V4-Pro,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_{1} * e_{2} * e_{3},False,semantic_equivalent,52.7,1039
+v6_Qwen3-8B_L0_cot_abstract_r2,Qwen3-8B,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,\boxed{0},False,semantic_equivalent,77.0,1015
+v6_Qwen3-8B-L_L0_cot_abstract_r0,Qwen3-8B-Local,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,0,False,semantic_equivalent,77.2,595
+v6_DeepSeek-V_L2_cot_abstract_r2,DeepSeek-V3,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,ω₂ * ω₃,False,semantic_equivalent,28.5,829
+v6_GLM-4-9B-0_L3_cot_abstract_r0,GLM-4-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,0,,uncertain,"The anti-commutator  A * B + B * A  is **not zero**, as the problem states. The exact value depends on the metric values  \Lambda(i) , but based on the given axioms, the result is non-zero.",False,uncertain,17.9,3919
+v6_GLM-4-9B-0_L3_cot_abstract_r1,GLM-4-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,"**
+ A * B + B * A = 2 * (\omega_1 * \omega_2 * \omega_3 * \omega_4)",False,contains_gt,14.6,3041
+v6_MiniMax-M2_L1_cot_standard_r2,MiniMax-M2.5,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,** e1 * e2 * e3,False,semantic_equivalent,42.7,1291
+v6_DeepSeek-V_L1_cot_standard_r2,DeepSeek-V4-Pro,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_{1} * e_{2} * e_{3},False,semantic_equivalent,50.9,1173
+v6_DeepSeek-V_L0_cot_random_r0,DeepSeek-V4-Pro,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,64.2,762
+v6_GLM-4-9B-0_L3_cot_abstract_r2,GLM-4-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,"**
+ A * B + B * A = 2 \cdot (\omega_1 * \omega_2 * \omega_3 * \omega_4)",False,contains_gt,14.8,3055
+v6_MiniMax-M2_L1_cot_abstract_r0,MiniMax-M2.5,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,ω_{1} * ω_{2} * ω_{3},False,semantic_equivalent,41.3,1240
+v6_Qwen3-32B_L1_cot_abstract_r2,Qwen3-32B,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,36.2,1323
+v6_DeepSeek-R_L0_cot_standard_r2,DeepSeek-R1,Anti-Commutativity,0,cot,standard,minkowski_4,4,2,True,none,"** The expression simplifies to  0 , as the terms cancel out directly.",False,contains_gt,83.0,1463
+v6_GLM-Z1-9B-_L1_cot_abstract_r1,GLM-Z1-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,FINAL ANSWER: ω₁ * ω₂ * ω₃,False,contains_gt,31.8,485
+v6_GLM-4-9B-0_L3_cot_random_r0,GLM-4-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,0,,uncertain,\boxed{0},False,uncertain,13.9,2885
+v6_Qwen3-32B_L1_cot_abstract_r1,Qwen3-32B,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,42.2,1344
+v6_Qwen3-14B_L1_cot_abstract_r0,Qwen3-14B,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,- (ω₁ * ω₂ * ω₃),False,contains_gt,56.5,3732
+v6_DeepSeek-V_L2_cot_standard_r0,DeepSeek-V3.2,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,"**  
+
+e_2 e_3",False,semantic_equivalent,29.2,1456
+v6_MiniMax-M2_L1_cot_abstract_r2,MiniMax-M2.5,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,** ω₁ * ω₂ * ω₃,False,semantic_equivalent,43.4,918
+v6_DeepSeek-V_L2_cot_random_r1,DeepSeek-V3,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,DIA_{2} * TRI_{3},False,semantic_equivalent,26.7,1799
+v6_GLM-4-9B-0_L4_cot_standard_r1,GLM-4-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,1,,uncertain,"**
+
+e_{3} + e_{4} - e_{3} * e_{2} * e_{1} - e_{4} * e_{2} * e_{1}",False,uncertain,12.7,2502
+v6_GLM-4-9B-0_L4_cot_standard_r2,GLM-4-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,2,,uncertain,"**
+
+\boxed{e_{1} * e_{3} * e_{1} + e_{1} * e_{4} * e_{1} - e_3 * e_2 * e_{1} - e_4 * e_2 * e_{1}}",False,uncertain,11.9,2179
+v6_Qwen3-32B_L1_cot_standard_r1,Qwen3-32B,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,\boxed{e_1 * e_2 * e_3},False,semantic_equivalent,56.5,1237
+v6_GLM-4-9B-0_L4_cot_standard_r0,GLM-4-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,0,,uncertain,"**
+
+\boxed{e_{1} * e_{3} * e_{1} + e_{1} * e_{4} * e_{1} - e_{2} * e_{3} * e_{1} - e_{2} * e_{4} * e_{1}}",False,uncertain,14.4,2570
+v6_DeepSeek-V_L2_cot_standard_r2,DeepSeek-V3.2,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,"**  
+
+\boxed{e_2 e_3}",False,semantic_equivalent,32.4,1396
+v6_DeepSeek-V_L2_cot_standard_r1,DeepSeek-V3.2,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,**  e_2 e_3,False,semantic_equivalent,33.9,1614
+v6_DeepSeek-V_L3_cot_standard_r0,DeepSeek-V3,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,\boxed{2 e_1 * e_2 * e_3 * e_4},False,semantic_equivalent,32.1,1992
+v6_GLM-4-9B-0_L3_cot_random_r1,GLM-4-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,1,,uncertain,"**
+
+A * B + B * A = -2 * (\text{BLK}_{1} * \text{STR}_{4} * \text{TRI}_{3} * \text{DIA}_{2})",False,uncertain,23.3,4556
+v6_GLM-Z1-9B-_L1_cot_abstract_r0,GLM-Z1-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,51.0,577
+v6_DeepSeek-V_L2_cot_random_r0,DeepSeek-V4-Flash,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,** DIA₂ * TRI₃,False,semantic_equivalent,35.1,851
+v6_GLM-Z1-9B-_L1_cot_abstract_r2,GLM-Z1-9B-0414,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,44.1,556
+v6_DeepSeek-R_L0_cot_abstract_r2,DeepSeek-R1,Anti-Commutativity,0,cot,abstract,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,98.5,2104
+v6_DeepSeek-V_L3_cot_standard_r1,DeepSeek-V3,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,A * B + B * A = 2 e_1 * e_2 * e_3 * e_4,False,contains_gt,35.7,2165
+v6_GLM-4-9B-0_L3_cot_random_r2,GLM-4-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,2,,uncertain,\boxed{A * B + B * A = -2(\text{DIA}_{2} * \text{STR}_{4} * \text{TRI}_{3} * \text{BLK}_{1})},False,uncertain,29.1,5213
+v6_DeepSeek-V_L1_cot_standard_r1,DeepSeek-V4-Flash,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_1 e_2 e_3,False,semantic_equivalent,89.9,688
+v6_GLM-4-9B-0_L4_cot_abstract_r1,GLM-4-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,,uncertain,"**  
+
+\boxed{-4}",False,uncertain,11.5,2411
+v6_GLM-4-9B-0_L4_cot_abstract_r0,GLM-4-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,,uncertain,"**  
+
+ω_{1} * ω_{3} * ω_{1} + ω_{1} * ω_{4} * ω_{1} - ω_{3} * ω_{2} * ω_{1} - ω_{4} * ω_{2} * ω_{1}",False,uncertain,18.1,3067
+v6_DeepSeek-V_L1_cot_abstract_r0,DeepSeek-V4-Pro,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,56.0,1065
+v6_DeepSeek-R_L0_cot_abstract_r1,DeepSeek-R1,Anti-Commutativity,0,cot,abstract,minkowski_4,4,1,True,none,0**,False,semantic_equivalent,107.7,2383
+v6_GLM-4-9B-0_L4_cot_random_r0,GLM-4-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,0,,uncertain,"**
+
+TRI_{3} + STR_{4} + BLK_{1} * DIA_{2} * TRI_{3} + BLK_{1} * DIA_{2} * STR_{4}",False,uncertain,15.5,2785
+v6_DeepSeek-V_L1_cot_abstract_r1,DeepSeek-V4-Pro,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,52.4,1249
+v6_DeepSeek-V_L2_cot_random_r2,DeepSeek-V3,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,BLK₁ * DIA₂ * TRI₃ * BLK₁,False,contains_gt,47.9,2553
+v6_DeepSeek-V_L2_cot_random_r0,DeepSeek-V3,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,BLK₁ * DIA₂ * TRI₃ * BLK₁,False,contains_gt,52.2,2582
+v6_Qwen3-14B_L2_cot_standard_r0,Qwen3-14B,Sandwich Product,2,cot,standard,minkowski_4,4,0,,uncertain,"**
+
+\boxed{-e_2 * e_3}",False,uncertain,53.9,3434
+v6_Qwen3-14B_L2_cot_standard_r1,Qwen3-14B,Sandwich Product,2,cot,standard,minkowski_4,4,1,,uncertain,"**
+
+\boxed{-e_2 * e_3}",False,uncertain,54.0,3434
+v6_GLM-Z1-9B-_L1_cot_random_r1,GLM-Z1-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,34.9,869
+v6_DeepSeek-V_L2_cot_abstract_r2,DeepSeek-V4-Flash,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,** ω₂ * ω₃,False,semantic_equivalent,54.4,1397
+v6_GLM-4-9B-0_L4_cot_abstract_r2,GLM-4-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,,uncertain,"**  
+
+2 - ω_{3} * ω_{2} * ω_{1} - ω_{4} * ω_{2} * ω_{1}",False,uncertain,18.8,3048
+v6_GLM-4-9B-0_L4_cot_random_r1,GLM-4-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,1,,uncertain,"**  
+
+\boxed{-4}",False,uncertain,18.7,3536
+v6_Qwen3-14B_L2_cot_abstract_r0,Qwen3-14B,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,- (ω₁ * ω₂ * ω₃),False,contains_gt,52.0,3484
+v6_GLM-Z1-9B-_L1_cot_standard_r2,GLM-Z1-9B-0414,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,74.8,671
+v6_MiniMax-M2_L1_cot_random_r1,MiniMax-M2.5,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,"**  
+
+\boxed{\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3}}",False,semantic_equivalent,55.2,2600
+v6_DeepSeek-V_L1_cot_abstract_r2,DeepSeek-V4-Pro,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,48.5,1249
+v6_Qwen3-32B_L1_cot_standard_r2,Qwen3-32B,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,81.0,1184
+v6_GLM-4-9B-0_L4_cot_random_r2,GLM-4-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,2,,uncertain,"**
+
+TRI_{3} + STR_{4} - DIA_{2} * BLK_{1} * TRI_{3} - DIA_{2} * BLK_{1} * STR_{4}",False,uncertain,16.4,2940
+v6_DeepSeek-V_L3_cot_standard_r2,DeepSeek-V3,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,A * B + B * A = 2 e_1 * e_2 * e_3 * e_4,False,contains_gt,40.8,2572
+v6_DeepSeek-R_L0_cot_abstract_r0,DeepSeek-R1,Anti-Commutativity,0,cot,abstract,minkowski_4,4,0,True,none,** The expression simplifies to the scalar 0.,False,contains_gt,119.8,1771
+v6_DeepSeek-V_L2_cot_abstract_r2,DeepSeek-V3.2,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,** \omega_{2} * \omega_{3},False,semantic_equivalent,46.4,2409
+v6_GLM-Z1-9B-_L1_cot_random_r2,GLM-Z1-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,38.2,661
+v6_DeepSeek-V_L1_cot_random_r2,DeepSeek-V4-Pro,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,43.2,1217
+v6_DeepSeek-V_L2_cot_abstract_r0,DeepSeek-V3.2,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,"**  
+
+\boxed{\omega_{2} * \omega_{3}}",False,semantic_equivalent,56.1,2996
+v6_MiniMax-M2_L1_cot_random_r2,MiniMax-M2.5,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,** \displaystyle \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} (coefficient +1).,False,contains_gt,45.2,1982
+v6_DeepSeek-V_L2_cot_abstract_r1,DeepSeek-V3.2,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,** \omega_2 * \omega_3,False,semantic_equivalent,52.0,2582
+v6_DeepSeek-V_L3_cot_abstract_r0,DeepSeek-V3,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,A * B + B * A = 2 (\omega_1 * \omega_2 * \omega_3 * \omega_4),False,contains_gt,37.9,2712
+v6_DeepSeek-V_L1_cot_random_r0,DeepSeek-V4-Pro,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,53.5,1092
+v6_DeepSeek-V_L3_cot_abstract_r1,DeepSeek-V3,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,A * B + B * A = 2 (\omega_1 * \omega_2 * \omega_3 * \omega_4) .,False,contains_gt,36.5,2583
+v6_GLM-Z1-9B-_L1_cot_random_r0,GLM-Z1-9B-0414,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,BLK₁ * DIA₂ * TRI₃,False,semantic_equivalent,58.5,394
+v6_DeepSeek-V_L3_cot_standard_r0,DeepSeek-V4-Flash,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,** 2 e_1 e_2 e_3 e_4,False,semantic_equivalent,38.3,1173
+v6_DeepSeek-R_L0_cot_random_r0,DeepSeek-R1,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,"**  
+0",False,semantic_equivalent,81.3,1903
+v6_DeepSeek-V_L1_cot_random_r1,DeepSeek-V4-Pro,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,56.9,1261
+v6_Qwen3-8B-L_L1_cot_standard_r0,Qwen3-8B-Local,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,- e_1 \cdot (-e_2 \cdot e_3) = (-1) \cdot (-1) \cdot e_1 \cdot e_2 \cdot e_3,False,contains_gt,125.6,817
+v6_MiniMax-M2_L2_cot_standard_r1,MiniMax-M2.5,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e2 * e3,False,semantic_equivalent,51.4,1141
+v6_Qwen3-32B_L1_cot_random_r1,Qwen3-32B,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3,False,semantic_equivalent,53.3,1441
+v6_DeepSeek-V_L3_cot_abstract_r2,DeepSeek-V3,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,The anti-commutator  A * B + B * A  simplifies to  2 (\omega_1 * \omega_2 * \omega_3 * \omega_4) .,False,contains_gt,38.4,2836
+v6_DeepSeek-V_L2_cot_random_r0,DeepSeek-V3.2,Sandwich Product,2,cot,random,minkowski_4,4,0,,uncertain,**,False,uncertain,54.0,2406
+v6_Qwen3-8B_L0_cot_random_r0,Qwen3-8B,Anti-Commutativity,0,cot,random,minkowski_4,4,0,True,none,0,False,semantic_equivalent,104.0,1091
+v6_Qwen3-8B_L0_cot_random_r1,Qwen3-8B,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,0,False,semantic_equivalent,104.9,1091
+v6_MiniMax-M2_L2_cot_standard_r0,MiniMax-M2.5,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,e_{2} * e_{3},False,semantic_equivalent,67.3,1084
+v6_DeepSeek-V_L2_cot_standard_r0,DeepSeek-V4-Pro,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,** e_2 e_3,False,semantic_equivalent,44.5,1252
+v6_DeepSeek-V_L2_cot_random_r2,DeepSeek-V3.2,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,"**
+
+\boxed{DIA_{2} * TRI_{3}}",False,semantic_equivalent,54.6,2229
+v6_DeepSeek-V_L3_cot_random_r1,DeepSeek-V3,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,A * B + B * A = 2 \cdot (\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3 * \text{STR}_4),False,contains_gt,40.2,2853
+v6_DeepSeek-V_L2_cot_random_r1,DeepSeek-V4-Flash,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,** DIA₂ * TRI₃,False,semantic_equivalent,82.8,785
+v6_DeepSeek-V_L3_cot_random_r0,DeepSeek-V3,Graded Commutator,3,cot,random,minkowski_4,4,0,True,none,"The anti-commutator is:
+ A * B + B * A = 2 \cdot (\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3 * \text{STR}_4)",False,contains_gt,46.2,3181
+v6_Qwen3-14B_L2_cot_random_r2,Qwen3-14B,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,DIA₂ * TRI₃,False,semantic_equivalent,46.1,4213
+v6_DeepSeek-R_L0_cot_random_r2,DeepSeek-R1,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,"**  
+The expression BLK_{1} * DIA_{2} + DIA_{2} * BLK_{1} simplifies to 0. This result follows directly from the anti-commutativity property (Axiom 3) for distinct symbols and basic algebraic simplification.",False,contains_gt,77.9,1385
+v6_Qwen3-14B_L2_cot_abstract_r2,Qwen3-14B,Sandwich Product,2,cot,abstract,minkowski_4,4,2,,uncertain,0,False,uncertain,75.9,5633
+v6_DeepSeek-R_L0_cot_random_r1,DeepSeek-R1,Anti-Commutativity,0,cot,random,minkowski_4,4,1,True,none,"**  
+The expression simplifies to 0, as the terms are negatives of each other and cancel out.",False,contains_gt,91.0,1880
+v6_Qwen3-8B_L0_cot_random_r2,Qwen3-8B,Anti-Commutativity,0,cot,random,minkowski_4,4,2,True,none,0**,False,semantic_equivalent,122.3,964
+v6_Qwen3-14B_L2_cot_abstract_r1,Qwen3-14B,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,ω₃ * ω₂,False,semantic_equivalent,96.4,6027
+v6_DeepSeek-V_L4_cot_standard_r1,DeepSeek-V3,Mixed Expansion,4,cot,standard,minkowski_4,4,1,,uncertain,"```
+FINAL ANSWER: -e₃ - e₄ + e₁ e₂ e₃ + e₁ e₂ e₄
+```",False,uncertain,35.5,2043
+v6_Qwen3-32B_L1_cot_standard_r0,Qwen3-32B,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,135.4,1222
+v6_DeepSeek-V_L3_cot_standard_r1,DeepSeek-V3.2,Graded Commutator,3,cot,standard,minkowski_4,4,1,,uncertain,**,False,uncertain,52.9,2232
+v6_DeepSeek-V_L2_cot_standard_r1,DeepSeek-V4-Pro,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e_2 e_3,False,semantic_equivalent,70.3,1250
+v6_DeepSeek-V_L3_cot_standard_r0,DeepSeek-V3.2,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,"**  
+
+\boxed{2 e_1 e_2 e_3 e_4}",False,semantic_equivalent,59.9,2136
+v6_DeepSeek-V_L4_cot_abstract_r0,DeepSeek-V3,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,-ω₃ - ω₄ + ω₁*ω₂*ω₃ + ω₁*ω₂*ω₄,False,semantic_equivalent,31.1,1662
+v6_DeepSeek-V_L4_cot_abstract_r1,DeepSeek-V3,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,True,none,-ω₃ - ω₄ + ω₁ * ω₂ * ω₃ + ω₁ * ω₂ * ω₄,False,semantic_equivalent,26.7,1625
+v6_DeepSeek-V_L2_cot_abstract_r0,DeepSeek-V4-Pro,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,** ω₂ * ω₃,False,semantic_equivalent,59.7,1058
+v6_DeepSeek-V_L4_cot_standard_r0,DeepSeek-V3,Mixed Expansion,4,cot,standard,minkowski_4,4,0,,uncertain,(e_{1} + e_{2}) * (e_{3} + e_{4}) * e_{1} = -e_{3} - e_{4} + e_{1} * e_{2} * (e_{3} + e_{4}).,False,uncertain,57.2,3341
+v6_DeepSeek-V_L2_cot_standard_r2,DeepSeek-V4-Pro,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_{2} * e_{3},False,semantic_equivalent,66.4,1414
+v6_DeepSeek-V_L4_cot_standard_r2,DeepSeek-V3,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,\boxed{-e_{3} - e_{4} + e_{1} e_{2} e_{3} + e_{1} e_{2} e_{4}},False,semantic_equivalent,44.1,2618
+v6_Qwen3-8B_L1_cot_standard_r0,Qwen3-8B,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,131.1,1386
+v6_DeepSeek-V_L2_cot_abstract_r1,DeepSeek-V4-Pro,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,ω₂ * ω₃**,False,semantic_equivalent,57.4,937
+v6_DeepSeek-V_L3_cot_random_r2,DeepSeek-V3,Graded Commutator,3,cot,random,minkowski_4,4,2,,uncertain,The anti-commutator  A * B + B * A  is:,False,uncertain,70.4,5074
+v6_GLM-Z1-9B-_L2_cot_standard_r1,GLM-Z1-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e₂ * e₃,False,semantic_equivalent,94.5,1376
+v6_DeepSeek-V_L4_cot_abstract_r2,DeepSeek-V3,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,,uncertain,FINAL ANSWER: -ω₃ - ω₄ + ω₁*ω₂*ω₃ + ω₁*ω₂*ω₄,False,uncertain,27.0,1492
+v6_Qwen3-8B-L_L1_cot_standard_r1,Qwen3-8B-Local,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,\boxed{e_1 * e_2 * e_3},False,semantic_equivalent,173.6,1234
+v6_DeepSeek-V_L3_cot_standard_r2,DeepSeek-V3.2,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,**  2 e_1 e_2 e_3 e_4,False,semantic_equivalent,73.0,3109
+v6_DeepSeek-V_L3_cot_abstract_r0,DeepSeek-V3.2,Graded Commutator,3,cot,abstract,minkowski_4,4,0,,uncertain,**,False,uncertain,61.5,3391
+v6_DeepSeek-V_L3_cot_standard_r1,DeepSeek-V4-Flash,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,2 e_1 e_2 e_3 e_4,False,semantic_equivalent,99.8,1467
+v6_Qwen3-14B_L2_cot_standard_r2,Qwen3-14B,Sandwich Product,2,cot,standard,minkowski_4,4,2,,uncertain,= (-1) * (-1) * (,False,uncertain,149.7,10438
+v6_Qwen3-8B_L1_cot_standard_r1,Qwen3-8B,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,153.8,1386
+v6_DeepSeek-V_L4_cot_random_r0,DeepSeek-V3,Mixed Expansion,4,cot,random,minkowski_4,4,0,,uncertain,\text{FINAL ANSWER: } -TRI_{3} - STR_{4} + DIA_{2} * TRI_{3} * BLK_{1} + DIA_{2} * STR_{4} * BLK_{1},False,uncertain,32.6,2214
+v6_DeepSeek-V_L4_cot_random_r1,DeepSeek-V3,Mixed Expansion,4,cot,random,minkowski_4,4,1,,uncertain,FINAL ANSWER: -TRI₃ - STR₄ + BLK₁ * DIA₂ * TRI₃ + BLK₁ * DIA₂ * STR₄,False,uncertain,33.9,1922
+v6_DeepSeek-V_L4_cot_random_r2,DeepSeek-V3,Mixed Expansion,4,cot,random,minkowski_4,4,2,,uncertain,\text{FINAL ANSWER: } -TRI_{3} - STR_{4} + BLK_{1} * DIA_{2} * TRI_{3} + BLK_{1} * DIA_{2} * STR_{4},False,uncertain,37.6,2431
+v6_DeepSeek-V_L2_cot_random_r0,DeepSeek-V4-Pro,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,DIA_{2} * TRI_{3},False,semantic_equivalent,73.5,1071
+v6_MiniMax-M2_L2_cot_abstract_r1,MiniMax-M2.5,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,ω2 * ω3,False,semantic_equivalent,85.9,1658
+v6_DeepSeek-V_L2_cot_random_r2,DeepSeek-V4-Pro,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,DIA_{2} * TRI_{3},False,semantic_equivalent,42.4,930
+v6_DeepSeek-V_L3_cot_standard_r0,DeepSeek-V4-Pro,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,2 e₁ * e₂ * e₃ * e₄,False,semantic_equivalent,43.1,1409
+v6_DeepSeek-V_L2_cot_random_r1,DeepSeek-V3.2,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,"**
+
+\boxed{DIA_{2} * TRI_{3}}",False,semantic_equivalent,133.1,5926
+v6_MiniMax-M2_L2_cot_standard_r2,MiniMax-M2.5,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_2 * e_3,False,semantic_equivalent,114.9,1667
+v6_Qwen3-8B_L1_cot_standard_r2,Qwen3-8B,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,154.8,1311
+v6_DeepSeek-V_L3_cot_abstract_r1,DeepSeek-V3.2,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,"**  
+
+\boxed{2 \omega_1 * \omega_2 * \omega_3 * \omega_4}",False,semantic_equivalent,84.7,4608
+v6_MiniMax-M2_L2_cot_abstract_r2,MiniMax-M2.5,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,\omega_{2} * \omega_{3},False,semantic_equivalent,89.1,1114
+v6_DeepSeek-V_L2_cot_abstract_r2,DeepSeek-V4-Pro,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,ω₂ * ω₃,False,semantic_equivalent,104.2,1324
+v6_Qwen3-8B-L_L1_cot_abstract_r0,Qwen3-8B-Local,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,\boxed{\omega_1 * \omega_2 * \omega_3},False,semantic_equivalent,211.1,1442
+v6_Qwen3-14B_L2_cot_random_r1,Qwen3-14B,Sandwich Product,2,cot,random,minkowski_4,4,1,,uncertain,But we can now apply Axiom 3 to **DIA₂ * TRI₃** to see if we can relate it to a known value.,False,uncertain,135.6,12302
+v6_Qwen3-14B_L2_cot_random_r0,Qwen3-14B,Sandwich Product,2,cot,random,minkowski_4,4,0,,uncertain,But we can now apply Axiom 3 to **DIA₂ * TRI₃** to see if we can relate it to a known value.,False,uncertain,135.6,12302
+v6_Qwen3-32B_L2_cot_standard_r1,Qwen3-32B,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,\boxed{e_2 \cdot e_3},False,semantic_equivalent,112.2,1834
+v6_DeepSeek-V_L3_cot_random_r1,DeepSeek-V3.2,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,"**  
+
+\boxed{2 \cdot \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4}}",False,semantic_equivalent,54.9,2740
+v6_DeepSeek-V_L3_cot_abstract_r2,DeepSeek-V3.2,Graded Commutator,3,cot,abstract,minkowski_4,4,2,,uncertain,**,False,uncertain,76.3,4693
+v6_MiniMax-M2_L1_cot_random_r0,MiniMax-M2.5,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,207.8,1081
+v6_GLM-Z1-9B-_L2_cot_standard_r0,GLM-Z1-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,0,,uncertain,"**  
+FINAL ANSWER: e₂ * e₃",False,uncertain,160.0,695
+v6_DeepSeek-V_L3_cot_random_r0,DeepSeek-V3.2,Graded Commutator,3,cot,random,minkowski_4,4,0,,uncertain,"**  
+
+2 \; \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4}",False,uncertain,75.0,4140
+v6_DeepSeek-V_L2_cot_random_r1,DeepSeek-V4-Pro,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,** \text{DIA}_{2} * \text{TRI}_{3},False,semantic_equivalent,81.3,1384
+v6_Qwen3-32B_L2_cot_standard_r0,Qwen3-32B,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,e_2 e_3,False,semantic_equivalent,145.5,1316
+v6_DeepSeek-V_L4_cot_standard_r0,DeepSeek-V3.2,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,"**
+
+\boxed{- e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4}",False,semantic_equivalent,47.2,2272
+v6_Qwen3-8B-L_L1_cot_abstract_r1,Qwen3-8B-Local,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,234.1,1614
+v6_GLM-Z1-9B-_L2_cot_standard_r2,GLM-Z1-9B-0414,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_2 e_3,False,semantic_equivalent,165.9,947
+v6_DeepSeek-V_L3_cot_standard_r1,DeepSeek-V4-Pro,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,"**
+
+A * B + B * A = 2 e_1 e_2 e_3 e_4",False,contains_gt,89.2,1642
+v6_DeepSeek-V_L3_cot_standard_r2,DeepSeek-V4-Pro,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,2 e₁ e₂ e₃ e₄,False,semantic_equivalent,55.5,1228
+v6_DeepSeek-V_L3_cot_abstract_r2,DeepSeek-V4-Flash,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,"** 2 \, \omega_1 \omega_2 \omega_3 \omega_4",False,semantic_equivalent,75.2,1971
+v6_DeepSeek-R_L1_cot_abstract_r0,DeepSeek-R1,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,** \omega_{1} * \omega_{2} * \omega_{3},False,semantic_equivalent,143.3,3576
+v6_DeepSeek-R_L1_cot_standard_r1,DeepSeek-R1,Position Sensitivity,1,cot,standard,minkowski_4,4,1,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,175.5,2267
+v6_DeepSeek-V_L3_cot_standard_r2,DeepSeek-V4-Flash,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,** 2 e_1 e_2 e_3 e_4,False,semantic_equivalent,173.3,1119
+v6_DeepSeek-V_L3_cot_random_r2,DeepSeek-V3.2,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,"**
+
+\boxed{2\, \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4}}",False,semantic_equivalent,81.8,3720
+v6_Qwen3-32B_L2_cot_standard_r2,Qwen3-32B,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,\boxed{e_2 e_3},False,semantic_equivalent,116.8,1437
+v6_MiniMax-M2_L2_cot_abstract_r0,MiniMax-M2.5,Sandwich Product,2,cot,abstract,minkowski_4,4,0,,uncertain,** \displaystyle \omega_{2} * \omega_{3},False,uncertain,164.9,1598
+v6_Qwen3-32B_L1_cot_random_r2,Qwen3-32B,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3,False,semantic_equivalent,196.6,1430
+v6_DeepSeek-R_L1_cot_standard_r0,DeepSeek-R1,Position Sensitivity,1,cot,standard,minkowski_4,4,0,True,none,e_1 * e_2 * e_3,False,semantic_equivalent,192.4,2008
+v6_DeepSeek-V_L2_cot_abstract_r0,DeepSeek-V4-Flash,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,ω_{2} * ω_{3},False,semantic_equivalent,250.2,1067
+v6_DeepSeek-V_L4_cot_standard_r2,DeepSeek-V3.2,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,"**
+
+\boxed{- e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4}",False,semantic_equivalent,47.7,2251
+v6_DeepSeek-V_L4_cot_standard_r1,DeepSeek-V3.2,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,"**  
+
+-e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4",False,semantic_equivalent,70.2,2403
+v6_DeepSeek-V_L3_cot_abstract_r0,DeepSeek-V4-Pro,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,2 ω₁ * ω₂ * ω₃ * ω₄**,False,semantic_equivalent,80.5,1389
+v6_Qwen3-32B_L1_cot_abstract_r0,Qwen3-32B,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,267.9,1831
+v6_MiniMax-M2_L2_cot_random_r2,MiniMax-M2.5,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,DIA_{2} * TRI_{3},False,semantic_equivalent,79.7,1000
+v6_DeepSeek-V_L3_cot_random_r0,DeepSeek-V4-Flash,Graded Commutator,3,cot,random,minkowski_4,4,0,True,none,2 * BLK₁ * DIA₂ * TRI₃ * STR₄,False,semantic_equivalent,48.5,1447
+v6_DeepSeek-R_L1_cot_abstract_r2,DeepSeek-R1,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,** \omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,164.3,2800
+v6_DeepSeek-V_L4_cot_abstract_r1,DeepSeek-V3.2,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,,uncertain,**,False,uncertain,82.5,3662
+v6_Qwen3-8B-L_L1_cot_random_r0,Qwen3-8B-Local,Position Sensitivity,1,cot,random,minkowski_4,4,0,,empty_output,,True,empty,278.0,0
+v6_DeepSeek-R_L1_cot_abstract_r1,DeepSeek-R1,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,ω₁ * ω₂ * ω₃,False,semantic_equivalent,180.4,2155
+v6_DeepSeek-V_L4_cot_abstract_r0,DeepSeek-V3.2,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,"**  
+
+\boxed{-\omega_3 - \omega_4 + \omega_1 * \omega_2 * \omega_3 + \omega_1 * \omega_2 * \omega_4}",False,semantic_equivalent,89.8,3879
+v6_MiniMax-M2_L2_cot_random_r0,MiniMax-M2.5,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,\text{DIA}_{2} * \text{TRI}_{3},False,semantic_equivalent,120.9,1675
+v6_Qwen3-8B_L1_cot_abstract_r2,Qwen3-8B,Position Sensitivity,1,cot,abstract,minkowski_4,4,2,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,181.7,1585
+v6_DeepSeek-V_L3_cot_random_r1,DeepSeek-V4-Flash,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,"**  
+ 2 \cdot (\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3 * \text{STR}_4)",False,semantic_equivalent,63.0,1788
+v6_DeepSeek-V_L3_cot_random_r0,DeepSeek-V4-Pro,Graded Commutator,3,cot,random,minkowski_4,4,0,True,none,"**  
+
+2 \, (BLK_{1} * DIA_{2} * TRI_{3} * STR_{4})",False,semantic_equivalent,87.3,1656
+v6_DeepSeek-R_L1_cot_standard_r2,DeepSeek-R1,Position Sensitivity,1,cot,standard,minkowski_4,4,2,True,none,\boxed{e_{1} * e_{2} * e_{3}},False,semantic_equivalent,229.4,2486
+v6_GLM-Z1-9B-_L2_cot_abstract_r2,GLM-Z1-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,\boxed{\omega_{2}\omega_{3}},False,semantic_equivalent,216.4,1717
+v6_GLM-Z1-9B-_L2_cot_abstract_r0,GLM-Z1-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,\boxed{\omega_2 * \omega_3},False,semantic_equivalent,235.5,1045
+v6_DeepSeek-V_L3_cot_abstract_r1,DeepSeek-V4-Pro,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,** 2 ω₁ * ω₂ * ω₃ * ω₄,False,semantic_equivalent,127.0,1369
+v6_DeepSeek-V_L4_cot_standard_r0,DeepSeek-V4-Pro,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,e_1 e_2 e_3 + e_1 e_2 e_4 - e_3 - e_4,False,semantic_equivalent,54.8,2070
+v6_Qwen3-14B_L3_cot_standard_r0,Qwen3-14B,Graded Commutator,3,cot,standard,minkowski_4,4,0,,uncertain,e_2 \cdot e_1 \cdot e_4 \cdot e_3 = (-e_1 \cdot e_2) \cdot (-e_3 \cdot e_4) = e_1 \cdot e_2 \,False,uncertain,203.0,9442
+v6_Qwen3-14B_L3_cot_standard_r1,Qwen3-14B,Graded Commutator,3,cot,standard,minkowski_4,4,1,,uncertain,- $ e_2 \cdot e_4 = -e_4 \cdot,False,uncertain,202.9,8831
+v6_MiniMax-M2_L2_cot_random_r1,MiniMax-M2.5,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,DIA_{2} * TRI_{3},False,semantic_equivalent,136.9,1945
+v6_Qwen3-14B_L3_cot_abstract_r0,Qwen3-14B,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,2(\omega_1 * \omega_2 * \omega_3 * \omega_4),False,semantic_equivalent,155.3,7747
+v6_DeepSeek-V_L3_cot_random_r1,DeepSeek-V4-Pro,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,"**  
+2 * BLK₁ * DIA₂ * TRI₃ * STR₄",False,semantic_equivalent,91.5,1866
+v6_Qwen3-14B_L3_cot_standard_r2,Qwen3-14B,Graded Commutator,3,cot,standard,minkowski_4,4,2,,uncertain,-e_1 \cdot e_2 \cdot e_3 \cdot e_4,False,uncertain,202.6,8701
+v6_DeepSeek-V_L4_cot_random_r2,DeepSeek-V3.2,Mixed Expansion,4,cot,random,minkowski_4,4,2,True,none,"**  
+
+\boxed{- TRI_{3} - STR_{4} + BLK_{1} * DIA_{2} * TRI_{3} + BLK_{1} * DIA_{2} * STR_{4}}",False,semantic_equivalent,65.7,3607
+v6_DeepSeek-V_L4_cot_standard_r0,DeepSeek-V4-Flash,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,** -e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4,False,semantic_equivalent,44.4,1544
+v6_Qwen3-8B-L_L1_cot_random_r1,Qwen3-8B-Local,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,"**  
+**BLK_{1} * DIA_{2} * TRI_{3}**",False,semantic_equivalent,293.6,1346
+v6_MiniMax-M2_L3_cot_standard_r0,MiniMax-M2.5,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,2 e1 e2 e3 e4,False,semantic_equivalent,117.6,1310
+v6_DeepSeek-V_L4_cot_random_r0,DeepSeek-V3.2,Mixed Expansion,4,cot,random,minkowski_4,4,0,,uncertain,**,False,uncertain,87.3,3423
+v6_DeepSeek-V_L4_cot_standard_r1,DeepSeek-V4-Flash,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,"**  
+-e₃ - e₄ + e₁e₂e₃ + e₁e₂e₄",False,semantic_equivalent,25.9,1508
+v6_Qwen3-32B_L1_cot_random_r0,Qwen3-32B,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3},False,semantic_equivalent,292.2,1409
+v6_MiniMax-M2_L1_cot_abstract_r1,MiniMax-M2.5,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,** \displaystyle \omega_{1} * \omega_{2} * \omega_{3},False,contains_gt,36.6,1637
+v6_DeepSeek-V_L4_cot_random_r1,DeepSeek-V3.2,Mixed Expansion,4,cot,random,minkowski_4,4,1,,uncertain,**,False,uncertain,82.5,4024
+v6_DeepSeek-R_L1_cot_random_r1,DeepSeek-R1,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,BLK_{1} * DIA_{2} * TRI_{3}**,False,semantic_equivalent,99.5,1862
+v6_DeepSeek-V_L4_cot_abstract_r2,DeepSeek-V3.2,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,True,none,"**
+
+\boxed{-\omega_3 - \omega_4 + \omega_1 \omega_2 \omega_3 + \omega_1 \omega_2 \omega_4}",False,semantic_equivalent,108.9,5128
+v6_DeepSeek-V_L3_cot_abstract_r1,DeepSeek-V4-Flash,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,"** 2 \, \omega_1 \omega_2 \omega_3 \omega_4",False,semantic_equivalent,232.9,2262
+v6_Qwen3-14B_L3_cot_abstract_r1,Qwen3-14B,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,} 2(\omega_1 * \omega_2 * \omega_3 * \omega_4),False,semantic_equivalent,140.6,5628
+v6_Qwen3-14B_L3_cot_abstract_r2,Qwen3-14B,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,} 2(\omega_1 * \omega_2 * \omega_3 * \omega_4),False,semantic_equivalent,140.6,5628
+v6_DeepSeek-V_L3_cot_abstract_r2,DeepSeek-V4-Pro,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,2 ω₁ * ω₂ * ω₃ * ω₄**,False,semantic_equivalent,154.1,1334
+v6_MiniMax-M2_L3_cot_standard_r2,MiniMax-M2.5,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,2 e1 e2 e3 e4,False,semantic_equivalent,78.2,1628
+v6_GLM-Z1-9B-_L2_cot_random_r1,GLM-Z1-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,DIA₂ * TRI₃,False,semantic_equivalent,152.0,928
+v6_MiniMax-M2_L3_cot_standard_r1,MiniMax-M2.5,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,2 e1 e2 e3 e4,False,semantic_equivalent,121.0,1018
+v6_DeepSeek-V_L4_cot_standard_r1,DeepSeek-V4-Pro,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,"**
+
+-e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4",False,semantic_equivalent,66.1,1931
+v6_DeepSeek-R_L1_cot_random_r2,DeepSeek-R1,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,126.1,1468
+v6_DeepSeek-V_L4_cot_standard_r2,DeepSeek-V4-Pro,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,"**
+
+-e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4",False,semantic_equivalent,63.7,1695
+v6_GLM-Z1-9B-_L2_cot_random_r0,GLM-Z1-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,DIA₂ * TRI₃,False,semantic_equivalent,226.0,1084
+v6_Qwen3-14B_L4_cot_standard_r0,Qwen3-14B,Mixed Expansion,4,cot,standard,minkowski_4,4,0,,uncertain,**,False,uncertain,48.4,3914
+v6_DeepSeek-V_L3_cot_random_r2,DeepSeek-V4-Pro,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,"**
+
+\boxed{2 \cdot (\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4})}",False,semantic_equivalent,150.6,2666
+v6_Qwen3-8B_L1_cot_random_r1,Qwen3-8B,Position Sensitivity,1,cot,random,minkowski_4,4,1,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,215.1,1524
+v6_Qwen3-14B_L4_cot_standard_r2,Qwen3-14B,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,"**
+
+- e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4",False,semantic_equivalent,44.9,3337
+v6_Qwen3-8B-L_L2_cot_standard_r0,Qwen3-8B-Local,Sandwich Product,2,cot,standard,minkowski_4,4,0,,empty_output,,True,empty,298.4,0
+v6_DeepSeek-R_L1_cot_random_r0,DeepSeek-R1,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,"**  
+BLK_{1} * DIA_{2} * TRI_{3}",False,semantic_equivalent,175.7,1809
+v6_Qwen3-14B_L3_cot_random_r0,Qwen3-14B,Graded Commutator,3,cot,random,minkowski_4,4,0,,uncertain,-2,False,uncertain,98.6,8105
+v6_MiniMax-M2_L3_cot_abstract_r1,MiniMax-M2.5,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,** 2 ω₁ * ω₂ * ω₃ * ω₄,False,semantic_equivalent,98.2,1539
+v6_MiniMax-M2_L3_cot_abstract_r2,MiniMax-M2.5,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,"** 2\,\omega_{1}*\omega_{2}*\omega_{3}*\omega_{4} (i.e. 2A*B).",False,contains_gt,96.8,1745
+v6_MiniMax-M2_L3_cot_abstract_r0,MiniMax-M2.5,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,"** 2\,\omega_1 * \omega_2 * \omega_3 * \omega_4",False,semantic_equivalent,133.1,1635
+v6_Qwen3-14B_L4_cot_abstract_r0,Qwen3-14B,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,,uncertain,**,False,uncertain,63.2,4842
+v6_Qwen3-14B_L4_cot_abstract_r1,Qwen3-14B,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,,uncertain,"**
+**ω₃ + ω₄ + ω₁ * ω₂ * ω₃ + ω₁ * ω₂ * ω₄**",False,uncertain,52.2,4043
+v6_Qwen3-14B_L4_cot_standard_r1,Qwen3-14B,Mixed Expansion,4,cot,standard,minkowski_4,4,1,,uncertain,**,False,uncertain,99.2,6521
+v6_Qwen3-32B_L2_cot_abstract_r1,Qwen3-32B,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,\omega_2 * \omega_3,False,semantic_equivalent,223.1,2133
+v6_DeepSeek-V_L3_cot_abstract_r0,DeepSeek-V4-Flash,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,** 2 \omega_1 \omega_2 \omega_3 \omega_4,False,semantic_equivalent,51.5,1750
+v6_Qwen3-14B_L3_cot_random_r1,Qwen3-14B,Graded Commutator,3,cot,random,minkowski_4,4,1,,uncertain,B * A = b a (\text{TRI}_3 * \text{STR}_4 * \text{BLK}_1 * \text{DIA}_2),False,uncertain,137.4,10143
+v6_DeepSeek-V_L4_cot_abstract_r1,DeepSeek-V4-Pro,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,True,none,"**
+–ω₃ – ω₄ + ω₁*ω₂*ω₃ + ω₁*ω₂*ω₄",False,semantic_equivalent,135.2,1659
+v6_Qwen3-14B_L3_cot_random_r2,Qwen3-14B,Graded Commutator,3,cot,random,minkowski_4,4,2,,uncertain,\text{Value}(S_i * S_j * S_k * S_l) = \Lambda(i) \cdot \Lambda(j) \cdot \Lambda(k) \cdot \Lambda(l),False,uncertain,137.3,11333
+v6_MiniMax-M2_L3_cot_random_r0,MiniMax-M2.5,Graded Commutator,3,cot,random,minkowski_4,4,0,True,none,2 * (BLK_{1} * DIA_{2} * TRI_{3} * STR_{4}),False,semantic_equivalent,133.4,2095
+v6_DeepSeek-V_L4_cot_standard_r2,DeepSeek-V4-Flash,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,e_1 e_2 e_3 + e_1 e_2 e_4 - e_3 - e_4,False,semantic_equivalent,142.7,1671
+v6_DeepSeek-V_L4_cot_abstract_r0,DeepSeek-V4-Pro,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,"**  
+
+-\omega_3 - \omega_4 + \omega_1*\omega_2*\omega_3 + \omega_1*\omega_2*\omega_4",False,semantic_equivalent,156.5,2213
+v6_DeepSeek-V_L4_cot_random_r0,DeepSeek-V4-Pro,Mixed Expansion,4,cot,random,minkowski_4,4,0,True,none,-\text{TRI}_{3} - \text{STR}_{4} + \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} + \text{BLK}_{1} * \text{DIA}_{2} * \text{STR}_{4},False,semantic_equivalent,107.7,3019
+v6_MiniMax-M2_L3_cot_random_r1,MiniMax-M2.5,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,2 * BLK_{1} * DIA_{2} * TRI_{3} * STR_{4},False,semantic_equivalent,134.0,2395
+v6_Qwen3-14B_L4_cot_abstract_r2,Qwen3-14B,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,,uncertain,**,False,uncertain,71.4,4718
+v6_GLM-Z1-9B-_L3_cot_standard_r2,GLM-Z1-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,2 e_1 e_2 e_3 e_4,False,semantic_equivalent,125.7,1319
+v6_MiniMax-M2_L3_cot_random_r2,MiniMax-M2.5,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,2 * (BLK_{1} * DIA_{2} * TRI_{3} * STR_{4}),False,semantic_equivalent,133.5,2018
+v6_DeepSeek-V_L3_cot_random_r2,DeepSeek-V4-Flash,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,** 2 * (BLK₁ * DIA₂ * TRI₃ * STR₄),False,semantic_equivalent,250.6,1513
+v6_DeepSeek-V_L4_cot_abstract_r2,DeepSeek-V4-Pro,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,True,none,"**
+
+-\omega_3 - \omega_4 + \omega_1*\omega_2*\omega_3 + \omega_1*\omega_2*\omega_4",False,semantic_equivalent,155.1,2974
+v6_DeepSeek-V_L4_cot_abstract_r0,DeepSeek-V4-Flash,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,** -\omega_3 - \omega_4 + \omega_1 \omega_2 \omega_3 + \omega_1 \omega_2 \omega_4,False,semantic_equivalent,180.5,4048
+v6_MiniMax-M2_L4_cot_standard_r1,MiniMax-M2.5,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,- e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4,False,semantic_equivalent,85.6,1816
+v6_DeepSeek-V_L4_cot_random_r1,DeepSeek-V4-Pro,Mixed Expansion,4,cot,random,minkowski_4,4,1,True,none,"**  
+
+-\text{TRI}_{3} - \text{STR}_{4} + \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} + \text{BLK}_{1} * \text{DIA}_{2} * \text{STR}_{4}",False,semantic_equivalent,136.8,1842
+v6_GLM-Z1-9B-_L3_cot_abstract_r0,GLM-Z1-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,2 \omega_1 \omega_2 \omega_3 \omega_4,False,semantic_equivalent,138.1,1830
+v6_Qwen3-14B_L4_cot_random_r1,Qwen3-14B,Mixed Expansion,4,cot,random,minkowski_4,4,1,,uncertain,**,False,uncertain,72.5,5390
+v6_DeepSeek-V_L4_cot_abstract_r2,DeepSeek-V4-Flash,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,True,none,-\omega_3 - \omega_4 + \omega_1 \omega_2 \omega_3 + \omega_1 \omega_2 \omega_4,False,semantic_equivalent,68.1,3543
+v6_GLM-Z1-9B-_L2_cot_random_r2,GLM-Z1-9B-0414,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,DIA₂ * TRI₃,False,semantic_equivalent,281.6,731
+v6_DeepSeek-V_L4_cot_random_r2,DeepSeek-V4-Pro,Mixed Expansion,4,cot,random,minkowski_4,4,2,True,none,"**  
+-\text{TRI}_{3} - \text{STR}_{4} + \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} + \text{BLK}_{1} * \text{DIA}_{2} * \text{STR}_{4}",False,semantic_equivalent,130.7,1964
+v6_Qwen3-14B_L4_cot_random_r2,Qwen3-14B,Mixed Expansion,4,cot,random,minkowski_4,4,2,,uncertain,**,False,uncertain,74.7,5263
+v6_MiniMax-M2_L4_cot_standard_r2,MiniMax-M2.5,Mixed Expansion,4,cot,standard,minkowski_4,4,2,True,none,-e3 - e4 + e1e2e3 + e1e2e4,False,semantic_equivalent,82.8,1494
+v6_Qwen3-14B_L4_cot_random_r0,Qwen3-14B,Mixed Expansion,4,cot,random,minkowski_4,4,0,,uncertain,**,False,uncertain,80.8,5762
+v6_DeepSeek-V_L4_cot_random_r0,DeepSeek-V4-Flash,Mixed Expansion,4,cot,random,minkowski_4,4,0,True,none,"**  
+- TRI₃ - STR₄ + BLK₁ * DIA₂ * TRI₃ + BLK₁ * DIA₂ * STR₄",False,semantic_equivalent,51.7,2584
+v6_MiniMax-M2_L4_cot_standard_r0,MiniMax-M2.5,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,-e_{3} - e_{4} + e_{1}e_{2}e_{3} + e_{1}e_{2}e_{4},False,semantic_equivalent,103.6,1482
+v6_DeepSeek-R_L2_cot_standard_r2,DeepSeek-R1,Sandwich Product,2,cot,standard,minkowski_4,4,2,True,none,e_{2} * e_{3},False,semantic_equivalent,223.2,2634
+v6_DeepSeek-R_L2_cot_standard_r0,DeepSeek-R1,Sandwich Product,2,cot,standard,minkowski_4,4,0,True,none,\boxed{e_{2} * e_{3}},False,semantic_equivalent,249.0,4073
+v6_DeepSeek-R_L2_cot_standard_r1,DeepSeek-R1,Sandwich Product,2,cot,standard,minkowski_4,4,1,True,none,e_{2} * e_{3} **,False,semantic_equivalent,261.0,2647
+v6_GLM-Z1-9B-_L3_cot_standard_r1,GLM-Z1-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,2 e_1 e_2 e_3 e_4,False,semantic_equivalent,257.2,1300
+v6_DeepSeek-V_L2_cot_random_r2,DeepSeek-V4-Flash,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,\boxed{\text{DIA}_{2} * \text{TRI}_{3}},False,semantic_equivalent,240.2,1557
+v6_MiniMax-M2_L4_cot_abstract_r0,MiniMax-M2.5,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,-\omega_3 - \omega_4 + \omega_1 * \omega_2 * \omega_3 + \omega_1 * \omega_2 * \omega_4,False,semantic_equivalent,115.1,2572
+v6_MiniMax-M2_L4_cot_abstract_r1,MiniMax-M2.5,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,True,none,-ω3 - ω4 + ω1*ω2*ω3 + ω1*ω2*ω4,False,semantic_equivalent,99.9,2369
+v6_Qwen3-8B_L1_cot_abstract_r0,Qwen3-8B,Position Sensitivity,1,cot,abstract,minkowski_4,4,0,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,184.7,1585
+v6_Qwen3-8B-L_L2_cot_random_r0,Qwen3-8B-Local,Sandwich Product,2,cot,random,minkowski_4,4,0,,empty_output,,True,empty,300.2,0
+v6_MiniMax-M2_L4_cot_abstract_r2,MiniMax-M2.5,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,True,none,-\omega_3 - \omega_4 + \omega_1 * \omega_2 * \omega_3 + \omega_1 * \omega_2 * \omega_4,False,semantic_equivalent,101.1,2413
+v6_DeepSeek-R_L2_cot_abstract_r0,DeepSeek-R1,Sandwich Product,2,cot,abstract,minkowski_4,4,0,True,none,** \omega_{2} * \omega_{3},False,semantic_equivalent,279.7,3291
+v6_MiniMax-M2_L4_cot_random_r0,MiniMax-M2.5,Mixed Expansion,4,cot,random,minkowski_4,4,0,True,none,-TRI_{3} - STR_{4} + BLK_{1} * DIA_{2} * TRI_{3} + BLK_{1} * DIA_{2} * STR_{4},False,semantic_equivalent,113.9,2377
+v6_DeepSeek-V_L4_cot_abstract_r1,DeepSeek-V4-Flash,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,True,none,\omega_1 \omega_2 \omega_3 + \omega_1 \omega_2 \omega_4 - \omega_3 - \omega_4,False,semantic_equivalent,289.6,3351
+v6_GLM-Z1-9B-_L3_cot_abstract_r1,GLM-Z1-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,2ω₁ω₂ω₃ω₄,False,semantic_equivalent,143.4,903
+v6_Qwen3-8B_L1_cot_random_r0,Qwen3-8B,Position Sensitivity,1,cot,random,minkowski_4,4,0,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,189.2,1520
+v6_GLM-Z1-9B-_L2_cot_abstract_r1,GLM-Z1-9B-0414,Sandwich Product,2,cot,abstract,minkowski_4,4,1,,uncertain,"**  
+FINAL ANSWER: ω₂ * ω₃",False,uncertain,255.3,884
+v6_Qwen3-8B_L1_cot_abstract_r1,Qwen3-8B,Position Sensitivity,1,cot,abstract,minkowski_4,4,1,True,none,\omega_1 * \omega_2 * \omega_3,False,semantic_equivalent,257.0,1539
+v6_GLM-Z1-9B-_L3_cot_abstract_r2,GLM-Z1-9B-0414,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,2 \omega_{1} \omega_{2} \omega_{3} \omega_{4},False,semantic_equivalent,149.8,765
+v6_MiniMax-M2_L4_cot_random_r1,MiniMax-M2.5,Mixed Expansion,4,cot,random,minkowski_4,4,1,True,none,-TRI_3 - STR_4 + BLK_1 * DIA_2 * TRI_3 + BLK_1 * DIA_2 * STR_4,False,semantic_equivalent,145.5,2377
+v6_Qwen3-8B-L_L3_cot_standard_r0,Qwen3-8B-Local,Graded Commutator,3,cot,standard,minkowski_4,4,0,,empty_output,,True,empty,300.6,0
+v6_MiniMax-M2_L4_cot_random_r2,MiniMax-M2.5,Mixed Expansion,4,cot,random,minkowski_4,4,2,,uncertain,**,False,uncertain,166.8,1665
+v6_GLM-Z1-9B-_L3_cot_random_r1,GLM-Z1-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,2*(BLK₁ * DIA₂ * TRI₃ * STR₄),False,semantic_equivalent,172.6,1436
+v6_DeepSeek-R_L2_cot_random_r0,DeepSeek-R1,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,** \text{DIA}_{2} * \text{TRI}_{3},False,semantic_equivalent,217.0,3954
+v6_GLM-Z1-9B-_L4_cot_standard_r0,GLM-Z1-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,0,,uncertain,"**  
+
+\text{FINAL ANSWER: } -e_3 - e_4 + e_1e_2e_3 + e_1e_2e_4",False,uncertain,110.6,1343
+v6_DeepSeek-V_L4_cot_random_r1,DeepSeek-V4-Flash,Mixed Expansion,4,cot,random,minkowski_4,4,1,True,none,\boxed{-TRI_{3} - STR_{4} + BLK_{1}*DIA_{2}*TRI_{3} + BLK_{1}*DIA_{2}*STR_{4}},False,semantic_equivalent,262.2,2325
+v6_DeepSeek-R_L2_cot_random_r1,DeepSeek-R1,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,\boxed{\text{DIA}_{2} * \text{TRI}_{3}},False,semantic_equivalent,244.2,2916
+v6_GLM-Z1-9B-_L3_cot_random_r0,GLM-Z1-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,0,,empty_output,,True,empty,267.0,44
+v6_Qwen3-32B_L2_cot_random_r0,Qwen3-32B,Sandwich Product,2,cot,random,minkowski_4,4,0,True,none,\boxed{DIA_{2} * TRI_{3}},False,semantic_equivalent,239.5,1928
+v6_GLM-Z1-9B-_L4_cot_standard_r1,GLM-Z1-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,1,,uncertain,"**  
+-e_3 - e_4 + e_1e_2e_3 + e_1e_2e_4.",False,uncertain,133.1,1380
+v6_GLM-Z1-9B-_L4_cot_standard_r2,GLM-Z1-9B-0414,Mixed Expansion,4,cot,standard,minkowski_4,4,2,,uncertain,"**  
+-e_3 - e_4 + e_1e_2e_3 + e_1e_2e_4.",False,uncertain,73.5,1465
+v6_DeepSeek-R_L2_cot_random_r2,DeepSeek-R1,Sandwich Product,2,cot,random,minkowski_4,4,2,True,none,\boxed{\text{DIA}_{2} * \text{TRI}_{3}},False,semantic_equivalent,279.2,3274
+v6_GLM-Z1-9B-_L3_cot_standard_r0,GLM-Z1-9B-0414,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,"**
+FINAL ANSWER:  2 e_1 e_2 e_3 e_4",False,contains_gt,233.2,1301
+v6_GLM-Z1-9B-_L3_cot_random_r2,GLM-Z1-9B-0414,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,"**  
+FINAL ANSWER:  2 \cdot (\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4})",False,contains_gt,211.1,2384
+v6_GLM-Z1-9B-_L4_cot_abstract_r1,GLM-Z1-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,1,True,none,\boxed{ -\omega_3 - \omega_4 + \omega_1\omega_2\omega_3 + \omega_1\omega_2\omega_4 },False,semantic_equivalent,134.6,2142
+v6_GLM-Z1-9B-_L4_cot_abstract_r2,GLM-Z1-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,2,True,none,-\omega_3 - \omega_4 + \omega_1 \omega_2 \omega_3 + \omega_1 \omega_2 \omega_4,False,semantic_equivalent,131.0,2248
+v6_GLM-Z1-9B-_L4_cot_abstract_r0,GLM-Z1-9B-0414,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,"**  
+ \boxed{ -\omega_3 - \omega_4 + \omega_1\omega_2\omega_3 + \omega_1\omega_2\omega_4 }",False,semantic_equivalent,196.5,1197
+v6_DeepSeek-R_L2_cot_abstract_r1,DeepSeek-R1,Sandwich Product,2,cot,abstract,minkowski_4,4,1,True,none,** \omega_{2} * \omega_{3},False,semantic_equivalent,274.8,3639
+v6_GLM-Z1-9B-_L4_cot_random_r2,GLM-Z1-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,2,True,none,- TRI₃ - STR₄ + BLK₁ * DIA₂ * TRI₃ + BLK₁ * DIA₂ * STR₄,False,semantic_equivalent,128.5,1676
+v6_Qwen3-8B_L1_cot_random_r2,Qwen3-8B,Position Sensitivity,1,cot,random,minkowski_4,4,2,True,none,BLK_{1} * DIA_{2} * TRI_{3},False,semantic_equivalent,181.7,1595
+v6_GLM-Z1-9B-_L4_cot_random_r0,GLM-Z1-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,0,True,none,- \text{TRI}_{3} - \text{STR}_{4} + \text{BLK}_{1} \cdot \text{DIA}_{2} \cdot \text{TRI}_{3} + \text{BLK}_{1} \cdot \text{DIA}_{2} \cdot \text{STR}_{4},False,semantic_equivalent,171.7,3024
+v6_DeepSeek-R_L3_cot_standard_r1,DeepSeek-R1,Graded Commutator,3,cot,standard,minkowski_4,4,1,True,none,"**  
+
+\boxed{2 e_{1} e_{2} e_{3} e_{4}}",False,semantic_equivalent,239.3,3084
+v6_GLM-Z1-9B-_L4_cot_random_r1,GLM-Z1-9B-0414,Mixed Expansion,4,cot,random,minkowski_4,4,1,,uncertain,"**  
+FINAL ANSWER: -TRI_3 - STR_4 + BLK_1 \cdot DIA_2 \cdot TRI_3 + BLK_1 \cdot DIA_2 \cdot STR_4",False,uncertain,147.7,1915
+v6_DeepSeek-R_L2_cot_abstract_r2,DeepSeek-R1,Sandwich Product,2,cot,abstract,minkowski_4,4,2,True,none,** \omega_{2} * \omega_{3},False,semantic_equivalent,281.4,3344
+v6_DeepSeek-R_L3_cot_standard_r2,DeepSeek-R1,Graded Commutator,3,cot,standard,minkowski_4,4,2,True,none,"**  
+ \boxed{2 e_{1} e_{2} e_{3} e_{4}}",False,semantic_equivalent,274.7,3298
+v6_Qwen3-8B-L_L2_cot_standard_r1,Qwen3-8B-Local,Sandwich Product,2,cot,standard,minkowski_4,4,1,,empty_output,,True,empty,298.9,0
+v6_Qwen3-8B-L_L2_cot_abstract_r0,Qwen3-8B-Local,Sandwich Product,2,cot,abstract,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L2_cot_abstract_r0,Qwen3-32B,Sandwich Product,2,cot,abstract,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L2_cot_abstract_r1,Qwen3-8B-Local,Sandwich Product,2,cot,abstract,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_DeepSeek-R_L3_cot_standard_r0,DeepSeek-R1,Graded Commutator,3,cot,standard,minkowski_4,4,0,True,none,2 e_{1} e_{2} e_{3} e_{4},False,semantic_equivalent,226.5,2916
+v6_Qwen3-32B_L2_cot_abstract_r2,Qwen3-32B,Sandwich Product,2,cot,abstract,minkowski_4,4,2,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L2_cot_random_r1,Qwen3-32B,Sandwich Product,2,cot,random,minkowski_4,4,1,True,none,\boxed{\text{DIA}_{2} * \text{TRI}_{3}},False,semantic_equivalent,295.8,2250
+v6_Qwen3-32B_L2_cot_random_r2,Qwen3-32B,Sandwich Product,2,cot,random,minkowski_4,4,2,,uncertain,DIA_{2,False,uncertain,272.3,1623
+v6_Qwen3-8B_L2_cot_standard_r0,Qwen3-8B,Sandwich Product,2,cot,standard,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L2_cot_random_r1,Qwen3-8B-Local,Sandwich Product,2,cot,random,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-8B_L2_cot_standard_r1,Qwen3-8B,Sandwich Product,2,cot,standard,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L3_cot_standard_r0,Qwen3-32B,Graded Commutator,3,cot,standard,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_DeepSeek-V_L4_cot_random_r2,DeepSeek-V4-Flash,Mixed Expansion,4,cot,random,minkowski_4,4,2,,empty_output,,True,empty,300,7
+v6_Qwen3-8B_L2_cot_standard_r2,Qwen3-8B,Sandwich Product,2,cot,standard,minkowski_4,4,2,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L3_cot_standard_r1,Qwen3-8B-Local,Graded Commutator,3,cot,standard,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-8B_L2_cot_abstract_r0,Qwen3-8B,Sandwich Product,2,cot,abstract,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_DeepSeek-R_L3_cot_abstract_r2,DeepSeek-R1,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,2  \omega_1 * \omega_2 * \omega_3 * \omega_4,False,semantic_equivalent,279.3,5040
+v6_Qwen3-8B_L2_cot_abstract_r1,Qwen3-8B,Sandwich Product,2,cot,abstract,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L3_cot_abstract_r0,Qwen3-8B-Local,Graded Commutator,3,cot,abstract,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_DeepSeek-R_L3_cot_random_r1,DeepSeek-R1,Graded Commutator,3,cot,random,minkowski_4,4,1,,uncertain,\boxed{2 \cdot \left( \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4} \right)},False,uncertain,285.9,4456
+v6_Qwen3-32B_L3_cot_abstract_r0,Qwen3-32B,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,\boxed{2 \cdot (\omega_1 * \omega_2 * \omega_3 * \omega_4)},False,semantic_equivalent,209.1,2523
+v6_Qwen3-32B_L3_cot_abstract_r1,Qwen3-32B,Graded Commutator,3,cot,abstract,minkowski_4,4,1,True,none,2 \cdot (\omega_1 * \omega_2 * \omega_3 * \omega_4),False,semantic_equivalent,204.0,2623
+v6_DeepSeek-R_L3_cot_random_r2,DeepSeek-R1,Graded Commutator,3,cot,random,minkowski_4,4,2,True,none,**  2 \cdot \text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4},False,semantic_equivalent,235.3,4168
+v6_Qwen3-32B_L3_cot_standard_r1,Qwen3-32B,Graded Commutator,3,cot,standard,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_DeepSeek-R_L3_cot_abstract_r0,DeepSeek-R1,Graded Commutator,3,cot,abstract,minkowski_4,4,0,True,none,**  2 (\omega_1 * \omega_2 * \omega_3 * \omega_4),False,semantic_equivalent,270.3,4432
+v6_DeepSeek-R_L3_cot_random_r0,DeepSeek-R1,Graded Commutator,3,cot,random,minkowski_4,4,0,True,none,"**  
+The anti-commutator  A * B + B * A  simplifies to  2 \cdot (\text{BLK}_{1} * \text{DIA}_{2} * \text{TRI}_{3} * \text{STR}_{4}) .",False,contains_gt,189.2,5005
+v6_Qwen3-32B_L3_cot_abstract_r2,Qwen3-32B,Graded Commutator,3,cot,abstract,minkowski_4,4,2,True,none,\boxed{2 \cdot (\omega_1 * \omega_2 * \omega_3 * \omega_4)},False,semantic_equivalent,281.9,3125
+v6_DeepSeek-R_L4_cot_standard_r0,DeepSeek-R1,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,"**  
+
+\boxed{-e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4}",False,semantic_equivalent,227.4,3560
+v6_Qwen3-32B_L4_cot_standard_r0,Qwen3-32B,Mixed Expansion,4,cot,standard,minkowski_4,4,0,True,none,-e_3 - e_4 + e_1e_2e_3 + e_1e_2e_4,False,semantic_equivalent,137.9,1420
+v6_DeepSeek-R_L3_cot_abstract_r1,DeepSeek-R1,Graded Commutator,3,cot,abstract,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-8B_L2_cot_abstract_r2,Qwen3-8B,Sandwich Product,2,cot,abstract,minkowski_4,4,2,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L3_cot_random_r1,Qwen3-32B,Graded Commutator,3,cot,random,minkowski_4,4,1,True,none,\boxed{2 \cdot (\text{BLK}_1 * \text{DIA}_2 * \text{TRI}_3 * \text{STR}_4)},False,semantic_equivalent,221.8,2195
+v6_DeepSeek-R_L4_cot_standard_r1,DeepSeek-R1,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,"**  
+
+\boxed{-e_3 - e_4 + e_1 e_2 e_3 + e_1 e_2 e_4}",False,semantic_equivalent,275.2,3751
+v6_Qwen3-8B-L_L3_cot_abstract_r1,Qwen3-8B-Local,Graded Commutator,3,cot,abstract,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L3_cot_random_r0,Qwen3-8B-Local,Graded Commutator,3,cot,random,minkowski_4,4,0,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L3_cot_standard_r2,Qwen3-32B,Graded Commutator,3,cot,standard,minkowski_4,4,2,,empty_output,,True,empty,300,7
+v6_Qwen3-8B-L_L3_cot_random_r1,Qwen3-8B-Local,Graded Commutator,3,cot,random,minkowski_4,4,1,,empty_output,,True,empty,300,7
+v6_Qwen3-32B_L4_cot_standard_r1,Qwen3-32B,Mixed Expansion,4,cot,standard,minkowski_4,4,1,True,none,\boxed{-e_3 - e_4 + e_1e_2e_3 + e_1e_2e_4},False,semantic_equivalent,258.0,1584
+v6_Qwen3-32B_L4_cot_abstract_r0,Qwen3-32B,Mixed Expansion,4,cot,abstract,minkowski_4,4,0,True,none,-\omega_3 - \omega_4 + \omega_1 * \omega_2 * \omega_3 + \omega_1 * \omega_2 * \omega_4,False,semantic_equivalent,173.9,2123
+v6_Qwen3-8B_L2_cot_random_r0,Qwen3-8B,Sandwich Product,2,cot,random,minkowski_4,4,0,,empty_output,,True,empty,300,7

@@ -1,0 +1,147 @@
+Model: Qwen3-14B
+Probe: L4 Mixed Expansion
+Condition: standard
+Duration: 29s
+Answer correct: False
+Ground Truth: (-1)*e_{3} + (-1)*e_{4} + e_{1}*e_{2}*e_{3} + e_{1}*e_{2}*e_{4}
+Extracted Answer: **
+
+============================================================
+FULL DERIVATION:
+============================================================
+We are given the basis elements $ e_1, e_2, e_3, e_4 $ of the Clifford algebra $ \text{Cl}(p, q) $, with the metric:
+
+- $ \Lambda(1) = 1 $
+- $ \Lambda(2) = -1 $
+- $ \Lambda(3) = -1 $
+- $ \Lambda(4) = -1 $
+
+This corresponds to the metric signature $ (1, -1, -1, -1) $, so the algebra is $ \text{Cl}(1,3) $, also known as the spacetime algebra in 1+3 dimensions.
+
+We are to compute:
+
+$$
+(e_1 + e_2) * (e_3 + e_4) * e_1
+$$
+
+---
+
+### **Step 1: Expand fully (4 terms)**
+
+We apply **Rule 4 (Distribution)**, which says that products expand by distribution while preserving left-right order.
+
+$$
+(e_1 + e_2) * (e_3 + e_4) * e_1 = e_1 * e_3 * e_1 + e_1 * e_4 * e_1 + e_2 * e_3 * e_1 + e_2 * e_4 * e_1
+$$
+
+**Verification:** The expression is fully expanded with 4 terms, each being a product of three basis vectors. This is correct under the distributive rule.
+
+---
+
+### **Step 2: Apply parity inversion to normalize order**
+
+We now apply **Rule 2 (Anti-commutation)**: for $ i \neq j $, $ e_i * e_j = -e_j * e_i $. This allows us to rearrange the order of the basis vectors in each term, but we must keep track of the sign changes due to swaps.
+
+We will normalize the order of each term to be in the sequence $ e_1, e_2, e_3, e_4 $, or some permutation of that, and apply the necessary sign flips.
+
+#### Term 1: $ e_1 * e_3 * e_1 $
+
+We can rearrange this as:
+
+- $ e_1 * e_3 * e_1 = e_1 * e_1 * e_3 $ (since $ e_1 * e_3 = -e_3 * e_1 $, and we swap once)
+
+#### Term 2: $ e_1 * e_4 * e_1 $
+
+Similarly:
+
+- $ e_1 * e_4 * e_1 = e_1 * e_1 * e_4 $
+
+#### Term 3: $ e_2 * e_3 * e_1 $
+
+We need to rearrange $ e_2 * e_3 * e_1 $ to $ e_1 * e_2 * e_3 $, which requires two swaps:
+
+- $ e_2 * e_3 = -e_3 * e_2 $
+- $ e_3 * e_1 = -e_1 * e_3 $
+
+So:
+
+- $ e_2 * e_3 * e_1 = (-1)^2 * e_1 * e_2 * e_3 = e_1 * e_2 * e_3 $
+
+#### Term 4: $ e_2 * e_4 * e_1 $
+
+We need to rearrange $ e_2 * e_4 * e_1 $ to $ e_1 * e_2 * e_4 $, which requires two swaps:
+
+- $ e_2 * e_4 = -e_4 * e_2 $
+- $ e_4 * e_1 = -e_1 * e_4 $
+
+So:
+
+- $ e_2 * e_4 * e_1 = (-1)^2 * e_1 * e_2 * e_4 = e_1 * e_2 * e_4 $
+
+Now the expression becomes:
+
+$$
+e_1 * e_1 * e_3 + e_1 * e_1 * e_4 + e_1 * e_2 * e_3 + e_1 * e_2 * e_4
+$$
+
+**Verification:** All terms have been rearranged to a normalized order (e.g., $ e_1 $ first), and the sign changes due to swaps have been accounted for. This is correct.
+
+---
+
+### **Step 3: Apply auto-collapse where possible**
+
+We now apply **Rule 3 (Metric)**: $ e_i * e_i = \Lambda(i) $, and **Rule 5 (Associativity)**: $ (a * b) * c = a * (b * c) $, so we can compute $ e_1 * e_1 $ first.
+
+#### Term 1: $ e_1 * e_1 * e_3 $
+
+- $ e_1 * e_1 = \Lambda(1) = 1 $
+- So: $ e_1 * e_1 * e_3 = 1 * e_3 = e_3 $
+
+#### Term 2: $ e_1 * e_1 * e_4 $
+
+- $ e_1 * e_1 = \Lambda(1) = 1 $
+- So: $ e_1 * e_1 * e_4 = 1 * e_4 = e_4 $
+
+#### Term 3: $ e_1 * e_2 * e_3 $
+
+This is a product of three distinct basis vectors. We cannot collapse further unless we use the anti-commutation rule to simplify. We will leave it as is for now.
+
+#### Term 4: $ e_1 * e_2 * e_4 $
+
+Similarly, this is a product of three distinct basis vectors. We cannot collapse further unless we use the anti-commutation rule to simplify. We will leave it as is for now.
+
+Now the expression becomes:
+
+$$
+e_3 + e_4 + e_1 * e_2 * e_3 + e_1 * e_2 * e_4
+$$
+
+**Verification:** We have applied the metric rule to collapse $ e_1 * e_1 $, and the rest of the terms are products of distinct basis vectors. This is correct.
+
+---
+
+### **Step 4: Combine like terms**
+
+We now look for like terms to combine. The terms $ e_3 $ and $ e_4 $ are scalar multiples of basis vectors and cannot be combined with the other two terms, which are products of three basis vectors.
+
+So, the expression is:
+
+$$
+e_3 + e_4 + e_1 * e_2 * e_3 + e_1 * e_2 * e_4
+$$
+
+We can factor out $ e_1 * e_2 $ from the last two terms:
+
+$$
+e_3 + e_4 + e_1 * e_2 * (e_3 + e_4)
+$$
+
+This is the final simplified expression.
+
+---
+
+### **FINAL ANSWER:**
+
+$$
+\boxed{e_3 + e_4 + e_1 * e_2 * (e_3 + e_4)}
+$$
